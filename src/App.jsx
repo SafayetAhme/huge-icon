@@ -4,78 +4,78 @@ import { HugeiconsAllBookmarkStroke, HugeiconsAppleNewsStroke, HugeiconsBubbleCh
 function App() {
 
   return (
-    <div className="w-full bg-[#6e6e6e]  p-[200px] justify-center">
-      <div className="bg-black p-[200px]">
-        <div className="bg-white rounded-3xl p-12">
-          <HugeiconsNewTwitterStroke className="mb-6"></HugeiconsNewTwitterStroke>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsHome01Stroke></HugeiconsHome01Stroke></p>
-            <h1 className="text-xl">Home</h1>
+    <div className=" bg-[#6e6e6e] w-full">
+      <div className="bg-black text-center  md:w-[1000px] py-[80px] mx-auto">
+        <div className="bg-white  text-center mx-auto w-[420px] rounded-3xl p-12">
+          <HugeiconsNewTwitterStroke className="mb-8 h-[34px] w-[34px] "></HugeiconsNewTwitterStroke>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsHome01Stroke className="h-[34px] w-[34px]"></HugeiconsHome01Stroke></p>
+            <h1 className="text-[27px]">Home</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsSearchList02Stroke></HugeiconsSearchList02Stroke></p>
-            <h1 className="text-xl">Explore</h1>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsSearchList02Stroke className="h-[34px] w-[34px]"></HugeiconsSearchList02Stroke></p>
+            <h1 className="text-[27px]">Explore</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsNotificationSnooze03Stroke></HugeiconsNotificationSnooze03Stroke></p>
-            <h1 className="text-xl">Notifications</h1>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsNotificationSnooze03Stroke className="h-[34px] w-[34px]"></HugeiconsNotificationSnooze03Stroke></p>
+            <h1 className="text-[27px]">Notifications</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsComment01Stroke></HugeiconsComment01Stroke></p>
-            <h1 className="text-xl">Messages</h1>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsComment01Stroke className="h-[34px] w-[34px]"></HugeiconsComment01Stroke></p>
+            <h1 className="text-[27px]">Messages</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsFolderLibraryStroke></HugeiconsFolderLibraryStroke></p>
-            <h1 className="text-xl">Lists</h1>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsFolderLibraryStroke className="h-[34px] w-[34px]"></HugeiconsFolderLibraryStroke></p>
+            <h1 className="text-[27px]">Lists</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsAllBookmarkStroke></HugeiconsAllBookmarkStroke></p>
-            <h1 className="text-xl">Bookmarks</h1>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsAllBookmarkStroke className="h-[34px] w-[34px]"></HugeiconsAllBookmarkStroke></p>
+            <h1 className="text-[27px]">Bookmarks</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsNewsStroke></HugeiconsNewsStroke></p>
-            <h1 className="text-xl">Top Articles</h1>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsNewsStroke className="h-[34px] w-[34px]"></HugeiconsNewsStroke></p>
+            <h1 className="text-[27px]">Top Articles</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsUserStroke></HugeiconsUserStroke></p>
-            <h1 className="text-xl">Profile</h1>
+          <div className="flex items-center gap-6">
+            <p><HugeiconsUserStroke className="h-[34px] w-[34px]"></HugeiconsUserStroke></p>
+            <h1 className="text-[27px]">Profile</h1>
           </div>
         </div>
       </div>
-      <div className="bg-white mt-10 p-[200px]">
-      <div className="bg-black text-white rounded-3xl p-12">
-          <HugeiconsNewTwitterStroke className="mb-6"></HugeiconsNewTwitterStroke>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsHome01Stroke></HugeiconsHome01Stroke></p>
-            <h1 className="text-xl">Home</h1>
+      <div className="bg-white text-center mt-12 md:w-[1000px] py-[80px] mx-auto">
+        <div className="bg-black text-white  text-center mx-auto w-[420px] rounded-3xl p-12">
+          <HugeiconsNewTwitterStroke className="mb-8 h-[34px] w-[34px] "></HugeiconsNewTwitterStroke>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsHome01Stroke className="h-[34px] w-[34px]"></HugeiconsHome01Stroke></p>
+            <h1 className="text-[27px]">Home</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsSearchList02Stroke></HugeiconsSearchList02Stroke></p>
-            <h1 className="text-xl">Explore</h1>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsSearchList02Stroke className="h-[34px] w-[34px]"></HugeiconsSearchList02Stroke></p>
+            <h1 className="text-[27px]">Explore</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsNotificationSnooze03Stroke></HugeiconsNotificationSnooze03Stroke></p>
-            <h1 className="text-xl">Notifications</h1>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsNotificationSnooze03Stroke className="h-[34px] w-[34px]"></HugeiconsNotificationSnooze03Stroke></p>
+            <h1 className="text-[27px]">Notifications</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsComment01Stroke></HugeiconsComment01Stroke></p>
-            <h1 className="text-xl">Messages</h1>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsComment01Stroke className="h-[34px] w-[34px]"></HugeiconsComment01Stroke></p>
+            <h1 className="text-[27px]">Messages</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsFolderLibraryStroke></HugeiconsFolderLibraryStroke></p>
-            <h1 className="text-xl">Lists</h1>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsFolderLibraryStroke className="h-[34px] w-[34px]"></HugeiconsFolderLibraryStroke></p>
+            <h1 className="text-[27px]">Lists</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsAllBookmarkStroke></HugeiconsAllBookmarkStroke></p>
-            <h1 className="text-xl">Bookmarks</h1>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsAllBookmarkStroke className="h-[34px] w-[34px]"></HugeiconsAllBookmarkStroke></p>
+            <h1 className="text-[27px]">Bookmarks</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsNewsStroke></HugeiconsNewsStroke></p>
-            <h1 className="text-xl">Top Articles</h1>
+          <div className="flex mb-6 items-center gap-6">
+            <p><HugeiconsNewsStroke className="h-[34px] w-[34px]"></HugeiconsNewsStroke></p>
+            <h1 className="text-[27px]">Top Articles</h1>
           </div>
-          <div className="flex mb-4 items-center gap-3">
-            <p><HugeiconsUserStroke></HugeiconsUserStroke></p>
-            <h1 className="text-xl">Profile</h1>
+          <div className="flex items-center gap-6">
+            <p><HugeiconsUserStroke className="h-[34px] w-[34px]"></HugeiconsUserStroke></p>
+            <h1 className="text-[27px]">Profile</h1>
           </div>
         </div>
       </div>
